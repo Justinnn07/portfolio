@@ -1,0 +1,185 @@
+{
+  "main": {
+    "name": "Justin",
+    "occupation": "Developer and a student ",
+    "description": "Student by Day😅, Founder && Front-End Developer by night",
+    "bio": "My name is Justin, I am currently working with ReactJS, Firebase, Python,  ",
+    "contactmessage": "Get in touch with me to receive further details",
+    "email": "justinv2006@gmail.com",
+    "phone": "+91 9319275200",
+    "address": {
+      "street": "Mayur Vihar Phase 3",
+      "city": "Delhi",
+      "state": "New Delhi",
+      "zip": "110096"
+    },
+    "website": "http://justinnn07.netlify.app",
+    "resumedownload": "#",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/justin.varghese42",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/justin-varghese-8704a91b3/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/justinnn_.07/",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "http://github.com/Justinnn07",
+        "className": "fa fa-github"
+      },
+      {
+        "name": "twitter",
+        "url": "http://twitter.com/justinnn_06",
+        "className": "fa fa-twitter"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "",
+    "education": [
+      {
+        "school": "St.Mary's sr.sec.school",
+        "degree": "Class 9",
+        "graduated": "April 2024",
+        "description": "Current"
+      }
+    ],
+    "work": [
+      {
+        "company": "Self",
+        "title": "Student",
+        "years": "April 2019 - Present",
+        "description": "Learning Reactjs Nodejs Python and many more to come😂😁"
+      }
+    ],
+    "skills": [
+      {
+        "name": "ReactJs",
+        "level": "100%"
+      },
+      {
+        "name": "CSS",
+        "level": "95%"
+      },
+      {
+        "name": "Git",
+        "level": "85%"
+      },
+      {
+        "name": "Windows && Linux",
+        "level": "85%"
+      },
+      {
+        "name": "HTML5",
+        "level": "80%"
+      },
+      {
+        "name": "python",
+        "level": "55%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Weather-app",
+        "category": "Weather app made using ReactJS",
+        "image": "weather-app.PNG",
+        "url": "https://weather-app-981.web.app/"
+      },
+      {
+        "title": "Mars Weather App",
+        "category": "Mars-Weather-App made using HTML, CSS, JAVASCRIPT",
+        "image": "mars-weather-app-0.PNG",
+        "url": "https://mars-weather-app-989.netlify.app/"
+      },
+      {
+        "title": "Facebook Clone with React",
+        "category": "Facebook Clone built with ReactJS",
+        "image": "fb.PNG",
+        "url": "https://facebook-clone-981.web.app/"
+      },
+      {
+        "title": "Airbnb Clone",
+        "category": "Facebook Clone built with ReactJS",
+        "image": "airbnb-clone.png",
+        "url": "https://airbnb-clone-989.web.app/"
+      },
+      {
+        "title": "Netflix Clone",
+        "category": "Netflix-clone built with ReactJS",
+        "image": "netflix-clone.jpeg",
+        "url": "https://netflix-clone-989.web.app/"
+      },
+      {
+        "title": "Amazon-clone",
+        "category": "Amazon-clone built with ReactJS",
+        "image": "amazon-clone.PNG",
+        "url": "https://amazon-clone-989.netlify.app/"
+      },
+      {
+        "title": "Discord-clone",
+        "category": "Discord-clone built with ReactJS",
+        "image": "discord.PNG",
+        "url": "https://discord-clone-989.web.app/"
+      },
+      {
+        "title": "Corrona-Tracker",
+        "category": "Corrona-Tracker built with ReactJS",
+        "image": "covid.PNG",
+        "url": "https://corrona-tracker-989.web.app/"
+      },
+      {
+        "title": "Hulu-clone",
+        "category": "Hulu-clone built with ReactJS",
+        "image": "hulu.PNG",
+        "url": "https://hulu-clone-989.web.app/"
+      },
+      {
+        "title": "Binod-Google-clone",
+        "category": "Binod-google-clone built with ReactJS",
+        "image": "binod1111.PNG",
+        "url": "https://binod-cse.web.app/"
+      },
+      {
+        "title": "Twitter Clone",
+        "category": "Twitter CLone built with ReactJS",
+        "image": "twitter-clone.PNG",
+        "url": "https://twitter-clone-989.web.app/"
+      },
+      {
+        "title": "Instagram Reels  Clone",
+        "category": "Instagram Reels CLone built with ReactJS",
+        "image": "IG Reels.PNG",
+        "url": "https://instagram-reels-clone-989.web.app/"
+      },
+      {
+        "title": "Google Maps Clone",
+        "category": "Google maps clone made using HTML, CSS, JavaScript and MapBox API",
+        "image": "maps clone.PNG",
+        "url": "https://instagram-reels-clone-989.web.app/"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "",
+        "user": ""
+      },
+      {
+        "text": "",
+        "user": ""
+      }
+    ]
+  }
+}
