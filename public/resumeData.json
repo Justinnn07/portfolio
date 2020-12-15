@@ -5,7 +5,7 @@
     "description": "Student by Day😅, Founder && Front-End Developer by night",
     "bio": "My name is Justin, I am currently working with ReactJS, Firebase, Python,  ",
     "contactmessage": "Get in touch with me to receive further details",
-    "email": "justinv2006@gmail.com",
+    "email": "justinn0606@gmail.com",
     "phone": "+91 9319275200",
     "address": {
       "street": "Mayur Vihar Phase 3",
@@ -14,7 +14,7 @@
       "zip": "110096"
     },
     "website": "http://justinnn07.netlify.app",
-    "resumedownload": "https://drive.google.com/file/d/13oC5h-q0O1CdzQJF8XGj_wyBTF7Kj19r/view",
+    "resumedownload": "https://drive.google.com/file/d/1BBTav3eZHue8TqCNhWqb46hEnKblNKR6/view?usp=sharing",
     "social": [
       {
         "name": "facebook",
@@ -40,6 +40,11 @@
         "name": "twitter",
         "url": "http://twitter.com/justinnn_06",
         "className": "fa fa-twitter"
+      },
+      {
+        "name": "whatsapp",
+        "url": "https://api.whatsapp.com/send/?phone=%2B919319275200&text=Text%20with%20Your%20boi%20Justin&app_absent=0",
+        "className": "fab fa-whatsapp"
       }
     ]
   },
@@ -83,8 +88,16 @@
         "level": "80%"
       },
       {
-        "name": "python",
+        "name": "Python",
         "level": "55%"
+      },
+      {
+        "name": "EXPRESS JS",
+        "level": "65%"
+      },
+      {
+        "name": "MERN STACK",
+        "level": "60%"
       }
     ]
   },
@@ -136,7 +149,7 @@
         "title": "Corrona-Tracker",
         "category": "Corrona-Tracker built with ReactJS",
         "image": "covid.PNG",
-        "url": "https://corrona-tracker-989.web.app/"
+        "url": "https://covid-tracker-989.web.app/"
       },
       {
         "title": "Hulu-clone",
@@ -166,7 +179,13 @@
         "title": "Google Maps Clone",
         "category": "Google maps clone made using HTML, CSS, JavaScript and MapBox API",
         "image": "maps clone.PNG",
-        "url": "https://instagram-reels-clone-989.web.app/"
+        "url": "https://google-maps-clone1.netlify.app/"
+      },
+      {
+        "title": "Form made using reactjs",
+        "category": "Form made using reactjs, material ui, firebase it is a fully functional form with signup and adminPage",
+        "image": "form.PNG",
+        "url": "https://internship-test1.netlify.app/"
       }
     ]
   },
