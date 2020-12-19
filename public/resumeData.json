@@ -3,6 +3,7 @@
     "name": "Justin",
     "occupation": "Developer and a student ",
     "description": "Student by Day😅, Founder && Front-End Developer by night",
+    "image": "justin.jpg",
     "bio": "My name is Justin, I am currently working with ReactJS, Firebase, Python,  ",
     "contactmessage": "Get in touch with me to receive further details",
     "email": "justinn0606@gmail.com",
@@ -14,7 +15,7 @@
       "zip": "110096"
     },
     "website": "http://justinnn07.netlify.app",
-    "resumedownload": "https://drive.google.com/file/d/1BBTav3eZHue8TqCNhWqb46hEnKblNKR6/view?usp=sharing",
+    "resumedownload": "https://drive.google.com/file/d/1NIhA2PjAFaMqSWwsSlpC3MP_FS9zRbcz/view",
     "social": [
       {
         "name": "facebook",
@@ -52,10 +53,16 @@
     "skillmessage": "",
     "education": [
       {
-        "school": "St.Mary's sr.sec.school",
+        "school": "ST.MARY'S SR.SEC.SCHOOL",
         "degree": "Class 9",
-        "graduated": "April 2024",
-        "description": "Current"
+        "graduated": "April 2021",
+        "description": ""
+      },
+      {
+        "school": "ST.MARY'S SR.SEC.SCHOOL",
+        "degree": "Class 10",
+        "graduated": "Current",
+        "description": ""
       }
     ],
     "work": [
@@ -64,6 +71,12 @@
         "title": "Student",
         "years": "April 2019 - Present",
         "description": "Learning Reactjs Nodejs Python and many more to come😂😁"
+      },
+      {
+        "company": "ForCommunity",
+        "title": "Front-End React Dev",
+        "years": "October 2020 - Present",
+        "description": "Learner, Mentor @ForCommunity "
       }
     ],
     "skills": [
@@ -77,19 +90,19 @@
       },
       {
         "name": "Git",
-        "level": "85%"
+        "level": "95%"
       },
       {
         "name": "Windows && Linux",
-        "level": "85%"
+        "level": "95%"
       },
       {
         "name": "HTML5",
-        "level": "80%"
+        "level": "100%"
       },
       {
         "name": "Python",
-        "level": "55%"
+        "level": "75%"
       },
       {
         "name": "EXPRESS JS",
@@ -98,6 +111,10 @@
       {
         "name": "MERN STACK",
         "level": "60%"
+      },
+      {
+        "name": "Firebase",
+        "level": "85%"
       }
     ]
   },
