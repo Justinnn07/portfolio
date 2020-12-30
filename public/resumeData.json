@@ -102,7 +102,7 @@
       },
       {
         "name": "Python",
-        "level": "75%"
+        "level": "80%"
       },
       {
         "name": "EXPRESS JS",
@@ -115,6 +115,10 @@
       {
         "name": "Firebase",
         "level": "85%"
+      },
+      {
+        "name": "C",
+        "level": "50%"
       }
     ]
   },
@@ -149,12 +153,6 @@
         "category": "Netflix-clone built with ReactJS",
         "image": "netflix-clone.jpeg",
         "url": "https://netflix-clone-989.web.app/"
-      },
-      {
-        "title": "Amazon-clone",
-        "category": "Amazon-clone built with ReactJS",
-        "image": "amazon-clone.PNG",
-        "url": "https://amazon-clone-989.netlify.app/"
       },
       {
         "title": "Discord-clone",
@@ -203,6 +201,12 @@
         "category": "Form made using reactjs, material ui, firebase it is a fully functional form with signup and adminPage",
         "image": "form.PNG",
         "url": "https://internship-test1.netlify.app/"
+      },
+      {
+        "title": "Flipkart-clone",
+        "category": "FLipkart CLone made with ReactJS(front-end)",
+        "image": "flipkart.PNG",
+        "url": "https://flipkart-clone1.web.app/"
       }
     ]
   },
