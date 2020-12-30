@@ -207,6 +207,12 @@
         "category": "FLipkart CLone made with ReactJS(front-end)",
         "image": "flipkart.PNG",
         "url": "https://flipkart-clone1.web.app/"
+      },
+      {
+        "title": "Hotstar-clone",
+        "category": "Hotstar Clone made with ReactJS(front-end)",
+        "image": "hotstar.PNG",
+        "url": "https://hotstar-clone-3011.web.app/"
       }
     ]
   },
