@@ -164,7 +164,7 @@
         "title": "Corrona-Tracker",
         "category": "Corrona-Tracker built with ReactJS",
         "image": "covid.PNG",
-        "url": "https://covid-tracker-989.web.app/"
+        "url": "https://covidtracker.justinn.me/"
       },
       {
         "title": "Hulu-clone",
@@ -212,7 +212,13 @@
         "title": "Hotstar-clone",
         "category": "Hotstar Clone made with ReactJS(front-end)",
         "image": "hotstar.PNG",
-        "url": "https://hotstar-clone-3011.web.app/"
+        "url": "https://hotstar.justinn.me/"
+      },
+      {
+        "title": "PrimeVideo-clone",
+        "category": "Amazon Prime Video Clone made with ReactJS(front-end)",
+        "image": "prime.PNG",
+        "url": "https://primevideo.justinn.me/"
       }
     ]
   },
