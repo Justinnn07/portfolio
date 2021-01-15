@@ -6,7 +6,7 @@
     "image": "justin.jpg",
     "bio": "My name is Justin, I am currently working with ReactJS, Firebase, Python,  ",
     "contactmessage": "Get in touch with me to receive further details",
-    "email": "justinn0606@gmail.com",
+    "email": "justinnn_.07@outlook.com",
     "phone": "+91 9319275200",
     "address": {
       "street": "Mayur Vihar Phase 3",
@@ -15,7 +15,7 @@
       "zip": "110096"
     },
     "website": "http://justinnn07.netlify.app",
-    "resumedownload": "https://drive.google.com/file/d/1oKRPu_xBevuaALxNVvmPkGKK1F7Di-jj/view?usp=sharing",
+    "resumedownload": "https://drive.google.com/file/d/1q2esPGwnGVPdifeqEc-uv3AWhEknyWI3/view?usp=sharing",
     "social": [
       {
         "name": "facebook",
@@ -76,7 +76,7 @@
         "company": "ForCommunity",
         "title": "Front-End React Dev",
         "years": "October 2020 - Present",
-        "description": "Learner, Mentor @ForCommunity "
+        "description": "Learner, Open Sourcer @ForCommunity "
       }
     ],
     "skills": [
@@ -219,6 +219,12 @@
         "category": "Amazon Prime Video Clone made with ReactJS(front-end)",
         "image": "prime.PNG",
         "url": "https://primevideo.justinn.me/"
+      },
+      {
+        "title": "Spotify-Clone",
+        "category": "Spotify Clone made using ReactJs and spotify web api",
+        "image": "spotify.PNG",
+        "url": "https://spotify.justinn.me/"
       }
     ]
   },
