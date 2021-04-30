@@ -122,8 +122,11 @@
       },
       {
         "name": "C",
-        "level": "50%"
-      }
+        "level": "75%"
+      },
+      {
+        "name": "Cpp",
+        "level": "60%"
     ]
   },
   "portfolio": {
