@@ -46,6 +46,10 @@
         "name": "whatsapp",
         "url": "https://api.whatsapp.com/send/?phone=%2B919319275200&text=Text%20with%20Your%20boi%20Justin&app_absent=0",
         "className": "fab fa-whatsapp"
+      },    {
+        "name": "hackerrank",
+        "url": "https://www.hackerrank.com/Justinnn07",
+        "className": "fab fa-hackerrank"
       }
     ]
   },
