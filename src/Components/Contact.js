@@ -1,17 +1,30 @@
 import React, { useState } from "react";
 
 const Contact = ({ data }) => {
-  // const [url, setUrl] = useState('mailto:justinv2006@gmail.com?subject=subject&body=body');
   const [name, setName] = useState("");
-  const [subject, setSubject] = useState("");
   const [email, setEmail] = useState("");
+  const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
 
-  console.log(data);
+  if (data) {
+    var contactName = data.name;
+    var street = data.address.street;
+    var city = data.address.city;
+    var state = data.address.state;
+    var zip = data.address.zip;
+    var phone = data.phone;
+    var contactEmail = data.email;
+    var contactMessage = data.contactmessage;
+  }
 
-  const handleClick = (e) => {
-    e.preventDefault();
-    window.open(`mailto:${email}?subject=${subject}&body=${name}: ${message}`);
+  const submitForm = () => {
+    window.open(
+      `mailto:${contactEmail}?subject=${encodeURIComponent(
+        subject
+      )}&body=${encodeURIComponent(name)} (${encodeURIComponent(
+        email
+      )}): ${encodeURIComponent(message)}`
+    );
   };
 
   return (
@@ -24,22 +37,22 @@ const Contact = ({ data }) => {
         </div>
 
         <div className="ten columns">
-          <p className="lead">{data?.message}</p>
+          <p className="lead">{contactMessage}</p>
         </div>
       </div>
 
       <div className="row">
         <div className="eight columns">
-          <form id="contactForm" name="contactForm">
+          <form onSubmit={submitForm}>
             <fieldset>
               <div>
                 <label htmlFor="contactName">
                   Name <span className="required">*</span>
                 </label>
                 <input
-                  value={name}
                   type="text"
                   defaultValue=""
+                  value={name}
                   size="35"
                   id="contactName"
                   name="contactName"
@@ -52,9 +65,9 @@ const Contact = ({ data }) => {
                   Email <span className="required">*</span>
                 </label>
                 <input
-                  value={email}
                   type="text"
                   defaultValue=""
+                  value={email}
                   size="35"
                   id="contactEmail"
                   name="contactEmail"
@@ -65,9 +78,9 @@ const Contact = ({ data }) => {
               <div>
                 <label htmlFor="contactSubject">Subject</label>
                 <input
-                  value={subject}
                   type="text"
                   defaultValue=""
+                  value={subject}
                   size="35"
                   id="contactSubject"
                   name="contactSubject"
@@ -80,22 +93,19 @@ const Contact = ({ data }) => {
                   Message <span className="required">*</span>
                 </label>
                 <textarea
-                  value={message}
-                  onChange={(e) => setMessage(e.target.value)}
                   cols="50"
                   rows="15"
+                  value={message}
+                  onChange={(e) => setMessage(e.target.value)}
                   id="contactMessage"
                   name="contactMessage"
                 ></textarea>
               </div>
 
               <div>
-                <button type="submit" onClick={handleClick} className="submit">
+                <button onClick={submitForm} type="submit" className="submit">
                   Submit
                 </button>
-                <span id="image-loader">
-                  <img alt="" src="images/loader.gif" />
-                </span>
               </div>
             </fieldset>
           </form>
@@ -111,16 +121,17 @@ const Contact = ({ data }) => {
           <div className="widget widget_contact">
             <h4>Address and Phone</h4>
             <p className="address">
-              {data?.name}
+              {contactName}
               <br />
-              {data?.address.street} <br />
-              {data?.address.city}, {data?.address.state} {data?.address.zip}
+              {contactEmail}
               <br />
-              <span>{data?.phone}</span>
+              <br />
+              {street} <br />
+              {city}, {state} {zip}
+              <br />
+              <span>{phone}</span>
             </p>
           </div>
-
-          <div className="widget widget_tweets"></div>
         </aside>
       </div>
     </section>
