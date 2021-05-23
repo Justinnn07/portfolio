@@ -61,7 +61,6 @@ const Header = ({ data }) => {
           </li>
         </ul>
       </nav>
-
       <div className="row banner">
         <div className="banner-text">
           <h1 className="responsive-headline">
